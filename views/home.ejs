@@ -1,7 +1,10 @@
 <% layout('/layout/boilerplate.ejs') -%>
 <body>
-    <h1>All List</h1>
+    <div class="row">
+        <h1>All List</h1>
+    </div>
     <div class="row row-cols-lg-3 row-cols-md-3 row-cols-sm-1">
+        
         <% for (let listing of alllist) { %>
             <a href="/listings/<%=listing._id%>">
                 <div class="card" style="width: 25rem;">
