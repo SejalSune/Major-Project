@@ -62,7 +62,7 @@ body {
 }
 
 .card-body{
-    padding: 0;
+    padding: 2.5px;
 }
 
 .card-text{
@@ -80,4 +80,9 @@ body {
 
 .row {
     margin-top: 8px;
+}
+
+.review {
+    border: 0.5px solid grey;
+    padding: 1.6px;
 }
